@@ -7,4 +7,5 @@ def my_each(arr) # put argument(s) here
   else
     puts "Hey! No block was given!"
   end
+  arr
 end
