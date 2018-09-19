@@ -1,8 +1,10 @@
 def my_each(arr) # put argument(s) here
   # code here
+  i = 0
   if block_given?
-    arr.length.times do |i|
+    while i< arr.length do
       yield arr[i]
+      i++
     end
   else
     puts "Hey! No block was given!"
